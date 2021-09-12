@@ -1,0 +1,77 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="container">
+                <div class="text-center">
+                    <a href="/" class="nav-brand text-dark">User Management System</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- /Header -->
+
+<main id="site-main">
+    <div class="container">
+<div class="box-nav d-flex justify-between">
+    <div class="filter">
+        <a href="/admin"><i class="fas fa-angle-double-left"></i> All Users</a>
+    </div>
+    <a href="/history-user" class="border-shadow">
+        <span class="text-gradient">User History <class class="fas fa-history"></class></i></span>
+    </a>
+</div>
+<form action="/" method="POST">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Last Play</th>
+                <th>Last Rank</th>
+                <th>Duration</th>
+            </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Andi</td>
+                    <td>12 septermber 2021</td>
+                    <td>10</td>
+                    <td>2 hours</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Budi</td>
+                    <td>13 septermber 2021</td>
+                    <td>18</td>
+                    <td>3 hours</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Citra</td>
+                    <td>1 septermber 2021</td>
+                    <td>2</td>
+                    <td>9 hours</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Doni</td>
+                    <td>11 septermber 2021</td>
+                    <td>13</td>
+                    <td>1 hours</td>
+                </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</form>
+</div>
+</main>
+
+
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
